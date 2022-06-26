@@ -1,0 +1,44 @@
+[
+  {
+    "name": "UpgradeBeaconController",
+    "address": "0x7A050B593270585EF95ca82bB289021340d2E38C",
+    "constructorArguments": []
+  },
+  {
+    "name": "UpdaterManager",
+    "address": "0xc65511C1DaE6fC79d75E4ebB628196Ea0Fca66A1",
+    "constructorArguments": [
+      "0x4177372FD9581ceb2367e0Ce84adC5DAD9DF8D55"
+    ]
+  },
+  {
+    "name": "XAppConnectionManager",
+    "address": "0xfAcD9618C6e60D4Db8599301278b7eC914230449",
+    "constructorArguments": []
+  },
+  {
+    "name": "Governance Implementation",
+    "address": "0xffbf1768D7A2148864072E4ddDBfD8840B8b89Ba",
+    "constructorArguments": [
+      3000,
+      180
+    ]
+  },
+  {
+    "name": "Governance UpgradeBeacon",
+    "address": "0x2Db50F6E1F414d2C60794D32DfeeDd3d01AD75cE",
+    "constructorArguments": [
+      "0xffbf1768D7A2148864072E4ddDBfD8840B8b89Ba",
+      "0x7A050B593270585EF95ca82bB289021340d2E38C"
+    ]
+  },
+  {
+    "name": "Governance Proxy",
+    "address": "0x80812AF88DDDd43E460983be11bee3a61fC4616E",
+    "constructorArguments": [
+      "0x2Db50F6E1F414d2C60794D32DfeeDd3d01AD75cE",
+      "0x485cc955000000000000000000000000facd9618c6e60d4db8599301278b7ec91423044900000000000000000000000024f6c874f56533d9a1422e85e5c7a806ed11c036"
+    ],
+    "isProxy": true
+  }
+]
