@@ -4,7 +4,7 @@ import { CoreDeploy } from './CoreDeploy';
 export function writePartials(dir: string) {
   // make folder if it doesn't exist already
   fs.mkdirSync(dir, { recursive: true });
-  const defaultDir = './rust/config/default';
+  const defaultDir = './deployments/config/default';
   const partialNames = ['kathy', 'processor', 'relayer', 'updater', 'watcher'];
   // copy partial config from default directory to given directory
   for (let partialName of partialNames) {

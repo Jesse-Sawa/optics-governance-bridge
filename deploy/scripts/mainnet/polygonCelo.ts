@@ -1,7 +1,7 @@
 import * as celo from '../../config/mainnets/celo';
 import * as polygon from '../../config/mainnets/polygon';
-import { CoreDeploy } from '../../src/core/CoreDeploy';
-import { deployGovernanceBridgeOnTwoChains } from '../../src/core/governanceBridgeDeployment';
+import { CoreDeploy } from '../../src/governance/CoreDeploy';
+import { deployGovernanceBridgeOnTwoChains } from '../../src/governance';
 
 let celoConfig = celo.config;
 let polygonConfig = polygon.config;

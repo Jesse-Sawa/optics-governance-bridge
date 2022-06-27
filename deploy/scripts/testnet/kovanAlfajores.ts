@@ -1,7 +1,7 @@
 import * as alfajores from '../../config/testnets/alfajores';
 import * as kovan from '../../config/testnets/kovan';
-import { CoreDeploy } from '../../src/core/CoreDeploy';
-import { deployGovernanceBridgeOnTwoChains } from '../../src/core/governanceBridgeDeployment';
+import { CoreDeploy } from '../../src/governance/CoreDeploy';
+import { deployGovernanceBridgeOnTwoChains } from '../../src/governance';
 
 let alfaConfig = alfajores.devConfig;
 let kovanConfig = kovan.devConfig;

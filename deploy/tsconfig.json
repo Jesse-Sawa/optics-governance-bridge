@@ -14,7 +14,7 @@
     "./scripts/mainnet/*.ts",
     "./scripts/threeTestnets/*.ts",
     "./src/*.ts",
-    "./src/core/*.ts",
+    "./src/governance/*.ts",
     "./src/bridge/*.ts",
     "./src/verification/*.ts"
   ]

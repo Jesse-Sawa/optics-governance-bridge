@@ -1,6 +1,6 @@
 import { ChainJson, toChain } from '../../src/chain';
 import * as dotenv from 'dotenv';
-import { CoreConfig } from '../../src/core/CoreDeploy';
+import { CoreConfig } from '../../src/governance/CoreDeploy';
 
 dotenv.config();
 
@@ -47,4 +47,3 @@ export const stagingConfig: CoreConfig = {
   processGas: 850_000,
   reserveGas: 15_000,
 };
-

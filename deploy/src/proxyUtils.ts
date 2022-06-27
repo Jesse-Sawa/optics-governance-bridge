@@ -1,7 +1,7 @@
 import { BytesLike, ethers } from 'ethers';
 
 import * as contracts from '@optics-xyz/ts-interface/dist/optics-core';
-import { CoreDeploy } from './core/CoreDeploy';
+import { CoreDeploy } from './governance/CoreDeploy';
 
 type Deploy = CoreDeploy;
 
