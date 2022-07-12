@@ -21,8 +21,7 @@ export const chain = toChain(chainJson);
 export const config: CoreConfig = {
   environment: 'prod-community',
   updater: '0x703643995262c92ab013E3CCA810BdcB9239d45a',
-  //TODO set before launch
-  recoveryTimelock: 60 * 60 * 24 * 7, // 7 days
+  recoveryTimelock: 60 * 60 * 24 * 14, // 14 days
   recoveryManager: '0x80431CA95Ef408f2d15361653F03167D14B559DD',
   optimisticSeconds: 60 * 30, // 30 minutes
   watchers: [
@@ -32,8 +31,10 @@ export const config: CoreConfig = {
   ],
   processGas: 850_000,
   reserveGas: 15_000,
-  homeAddress: '0x97bbda9A1D45D86631b243521380Bc070D6A4cBD',
+  // Optics production community home celo address
+  homeAddress: '0x913EE05036f3cbc94Ee4afDea87ceb430524648a',
   replicas: new Map<number, string>([
-    [6648936, '0xf25C5932bb6EFc7afA4895D9916F2abD7151BF97'],
+    // Optics production community celo replica address on ethereum
+    [6648936, '0xcDE146d1C673fE13f4fF1569d3F0d9f4d0b9c837'],
   ]),
 };

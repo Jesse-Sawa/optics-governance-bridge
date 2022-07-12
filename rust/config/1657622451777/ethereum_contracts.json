@@ -1,0 +1,17 @@
+{
+  "upgradeBeaconController": "0x3eA19ddd97cfC687576bc0dcEA4c834E06590BB1",
+  "xAppConnectionManager": "0x228C0f1C15FB61F6Af5D613519Ecd090f9113b19",
+  "updaterManager": "0x39B26877457b9dF3988641747BF64A4E023Fa6f9",
+  "governance": {
+    "implementation": "0x47A72910CA53A5087EbcCE4282262D4FF4c799c3",
+    "proxy": "0xF7e46b233ABD1EDAAd8dBBBda12129b97B071025",
+    "beacon": "0xB33B95A4176Fead0e8CA5a6F186c72038D341F08"
+  },
+  "replicas": {},
+  "recoveryManager": "0x484c9FD80e0A5f06db8D7D7C893D27658Fda4b10",
+  "updater": "0x5Ef6e0F6A7E1f866612D806041799a9D762b62c0",
+  "governor": {
+    "address": "0x1a9C8182C09F50C8318d769245beA52c32BE35BC",
+    "domain": 6648936
+  }
+}
